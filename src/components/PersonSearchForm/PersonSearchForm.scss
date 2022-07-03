@@ -1,0 +1,47 @@
+.person-search-form {
+  &__section {
+    &:not(:last-of-type) {
+      margin-bottom: 54px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    /* identical to box height, or 114% */
+
+    text-transform: lowercase;
+
+    /* text/black */
+
+    color: #3f4049;
+  }
+
+  &__subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 110%;
+    /* identical to box height, or 18px */
+
+    text-transform: lowercase;
+
+    /* text/black */
+
+    color: #3f4049;
+    margin-bottom: 17px;
+
+    &--mb1 {
+      margin-bottom: 17px;
+    }
+    
+    &--mb2 {
+      margin-bottom: 24px;
+    }
+  }
+}

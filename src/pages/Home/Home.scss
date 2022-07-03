@@ -1,0 +1,9 @@
+.home-page {
+  & .title {
+    margin-bottom: 64px;
+  }
+
+  &__cards {
+    margin: 0 auto;
+  }
+}
